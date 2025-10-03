@@ -147,6 +147,6 @@ Lazy.nvim will auto-install all plugins on first launch.
 
 ---
 
-![Coding OpenGL Triangle](assets/Coding_OpenGL.png)
+![Coding C++ OpenGL Triangle](assets/Coding_OpenGL.png)
 
 ---
