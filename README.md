@@ -12,9 +12,17 @@ A modular, feature-rich Neovim setup powered by [lazy.nvim](https://github.com/f
 ## 🚀 Core Setup
 
 ### lazy.nvim – Fast plugin management
+
+```bold ***Installing lazy.nvim for Linux:*** ```
 ```bash
 git clone https://github.com/folke/lazy.nvim ~/.config/nvim/lazy
 ```
+```***Installing lazy.nvim for Windows:*** ```
+```cmd
+git clone https://github.com/folke/lazy.nvim C:\Users\<your-username>\AppData\Local\nvim\lazy
+```
+
+If you have your neovim config in another folder then you have to specify where git will clone lazy.nvim to!!
 
 ### Mason – LSP, DAP, linters, formatters
 ```vim
