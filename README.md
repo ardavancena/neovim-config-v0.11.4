@@ -1,5 +1,4 @@
 
-```markdown
 # 🧠 Neovim Configuration
 
 A modular, feature-rich Neovim setup powered by [lazy.nvim](https://github.com/folke/lazy.nvim). Designed for fast startup, deep language support, and a clean UI.
@@ -123,5 +122,4 @@ nvim
 ```
 
 Lazy.nvim will auto-install all plugins on first launch.
-```
 
