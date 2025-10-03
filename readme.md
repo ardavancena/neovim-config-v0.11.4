@@ -96,7 +96,7 @@ If you have your neovim config in another folder then you have to specify where 
 - `<leader>ca` – Code actions
 - `<leader>p` – telescope(view files and search for them)
 
-**<leader>th – THEME SWITCHER**
+**`<leader>`th – THEME SWITCHER**
 
 ***leader = space <- (important)***
 
