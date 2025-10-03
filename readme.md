@@ -26,10 +26,16 @@ git clone https://github.com/folke/lazy.nvim C:\Users\<your-username>\AppData\Lo
 
 If you have your neovim config in another folder then you have to specify where git will clone lazy.nvim to!!
 
+---
+
 ### Mason – LSP, DAP, linters, formatters
 ```vim
 :Mason
 ```
+
+```**You can install your lsps and more using :Mason**```
+
+```**And also like this.**```
 
 ### LSP Servers
 ```vim
@@ -84,9 +90,15 @@ If you have your neovim config in another folder then you have to specify where 
 
 ## 🧠 Key Mappings
 
-- `K` – Hover info
+- `K` – Hover info about the keyword or functions(if the lsps support it it will work for anything)
 - `gd` – Go to definition
+- `gD` – Go to Decleration
 - `<leader>ca` – Code actions
+- `<leader>p` – telescope(view files and search for them)
+
+```**<leader>th – THEME SWITCHER**```
+
+```*** leader = space <- (important) ***```
 
 ---
 
@@ -124,13 +136,18 @@ If you have your neovim config in another folder then you have to specify where 
 
 ---
 
-## 📦 Installation
+## 📦 Installation (Linux)
 
 ```bash
 mv ~/.config/nvim ~/.config/nvim.backup
 mkdir -p ~/.config/nvim
 git clone https://github.com/ardavancena/neovim-config-v0.11.4 ~/.config/nvim
 nvim
+```
+
+## 📦 Installation (Windows)
+```bash
+move 
 ```
 
 --
@@ -159,7 +176,9 @@ hint: i will tell you all how to use the theme switching feature!!
 
 ---
 ```text
-(!IMPORTANT!) Using the theme switcher with <leader>th (the leader key is set to space)
+(!IMPORTANT!) Using the theme switcher with <leader>
+the leader key is set to space
+you can do space+t+h to open the theme menu
 ```
 
 ![Switching Themes With Dressing.nvim](assets/Switching_Themes.png)
