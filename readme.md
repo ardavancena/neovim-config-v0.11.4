@@ -131,5 +131,5 @@ nvim
 
 Lazy.nvim will auto-install all plugins on first launch.
 
-![Glyph Art Preview](glyph-art.png)
+![Glyph Art Preview](assets/glyph-art.png)
 
