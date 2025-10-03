@@ -1,4 +1,3 @@
-
 return {
   {
     "williamboman/mason.nvim",
@@ -18,7 +17,7 @@ return {
     config = function()
       local capabilities = require("cmp_nvim_lsp").default_capabilities()
 
-      -- 🔹 Diagnostics setup
+      -- Diagnostics setup
       vim.diagnostic.config({
         virtual_text = {
           prefix = "",
@@ -38,7 +37,7 @@ return {
         end,
       })
 
-      -- 🔹 Servers list
+      -- Servers list
       local servers = {
           "ts_ls",
           "solargraph",
@@ -54,12 +53,12 @@ return {
       }
 
       for _, server in ipairs(servers) do
-          vim.lsp.config(server, {  -- ✅ new API
+          vim.lsp.config(server, {  -- new API
               capabilities = capabilities,
           })
       end
 
-      -- 🔹 Keymaps
+      -- Keymaps
       vim.keymap.set("n", "K", vim.lsp.buf.hover, {})
       vim.keymap.set("n", "gd", vim.lsp.buf.definition, {})
       vim.keymap.set({ "n", "v" }, "<leader>ca", vim.lsp.buf.code_action, {})

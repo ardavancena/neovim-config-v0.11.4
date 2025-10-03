@@ -150,3 +150,10 @@ Lazy.nvim will auto-install all plugins on first launch.
 ![Coding C++ OpenGL Triangle](assets/Coding_OpenGL.png)
 
 ---
+
+```text
+(!IMPORTANT!) Using the theme switcher with <leader>th (the leader key is set to space)
+```
+
+![Switching Themes With Dressing.nvim](assets/Switching_Themes.png)
+
