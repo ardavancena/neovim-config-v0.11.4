@@ -143,10 +143,20 @@ Lazy.nvim will auto-install all plugins on first launch.
 
 ---
 
+```text
+
+This is how the home looks like in this config:
+```
+
 ![Neovim Config Home](assets/neovim-home.png)
 
 ---
 
+```text
+
+this is how coding with this config and C++ looks like with the vscode theme
+hint: i will tell you all how to use the theme switching feature!!
+```
 ![Coding C++ OpenGL Triangle](assets/Coding_OpenGL.png)
 
 ---
