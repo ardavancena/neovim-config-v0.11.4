@@ -144,7 +144,6 @@ Lazy.nvim will auto-install all plugins on first launch.
 ---
 
 ```text
-
 This is how the home looks like in this config:
 ```
 
@@ -153,14 +152,12 @@ This is how the home looks like in this config:
 ---
 
 ```text
-
 this is how coding with this config and C++ looks like with the vscode theme
 hint: i will tell you all how to use the theme switching feature!!
 ```
 ![Coding C++ OpenGL Triangle](assets/Coding_OpenGL.png)
 
 ---
-
 ```text
 (!IMPORTANT!) Using the theme switcher with <leader>th (the leader key is set to space)
 ```
