@@ -65,6 +65,8 @@ If you have your neovim config in another folder then you have to specify where 
 - Autopairs and completion engine
 - Theme switching via `themes.lua`
 
+- (exmaples are included with screenshots at the end)
+
 ---
 
 ## 🧩 Plugin Management
@@ -129,6 +131,16 @@ git clone https://github.com/ardavancena/neovim-config-v0.11.4 ~/.config/nvim
 nvim
 ```
 
+--
+
 Lazy.nvim will auto-install all plugins on first launch.
 
+---
+
 ![Neovim Glyph Art](assets/neovim-glyph-art.png)
+
+---
+
+![Neovim Config Home](assets/neovim-home.png)
+
+---
