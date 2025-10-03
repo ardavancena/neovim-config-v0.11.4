@@ -1,0 +1,30 @@
+-- colors.lua
+return {
+  { "folke/tokyonight.nvim", lazy = true },
+  { "ellisonleao/gruvbox.nvim", lazy = true },
+  { "catppuccin/nvim", name = "catppuccin", lazy = true },
+  { "rebelot/kanagawa.nvim", lazy = true },
+  { "savq/melange-nvim", lazy = true },
+  { "navarasu/onedark.nvim", lazy = true },
+  { "EdenEast/nightfox.nvim", lazy = true },
+  { "rose-pine/neovim", name = "rose-pine", lazy = true },
+  { "loctvl842/monokai-pro.nvim", lazy = true },
+  { "shaunsingh/nord.nvim", lazy = true },
+  { "marko-cerovac/material.nvim", lazy = true },
+  { "bluz71/vim-moonfly-colors", name = "moonfly", lazy = true },
+  { "neanias/everforest-nvim", lazy = true },
+  { "NTBBloodbath/doom-one.nvim", lazy = true },
+  { "Shatur/neovim-ayu", lazy = true },
+  { "sainnhe/edge", lazy = true },
+  { "ray-x/aurora", lazy = true },
+  { "nvimdev/zephyr-nvim", lazy = true },
+  { "nyoom-engineering/oxocarbon.nvim", lazy = true },
+  { "drewtempelmeyer/palenight.vim", lazy = true },
+  { "lunarvim/horizon.nvim", lazy = true },
+  { "Mofiqul/vscode.nvim", lazy = true },
+  { "romainl/Apprentice" },
+  { "mhartington/oceanic-next", name = "OceanicNext", lazy = true },
+  { "nanotech/jellybeans.vim", lazy = true },
+
+  { "stevearc/dressing.nvim", event = "VeryLazy" }, -- optional picker UI
+}

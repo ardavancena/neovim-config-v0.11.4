@@ -1,0 +1,25 @@
+return {
+--    "sphamba/smear-cursor.nvim",
+--    opts = {
+--        -- Smear cursor when switching buffers or windows.
+--        smear_between_buffers = false,
+--
+--        -- Smear cursor when moving within line or to neighbor lines.
+--        -- Use `min_horizontal_distance_smear` and `min_vertical_distance_smear` for finer control
+--        smear_between_neighbor_lines = true,
+--
+--        cursor_color = "#ffffff",
+--
+--        -- Draw the smear in buffer space instead of screen space when scrolling
+--        scroll_buffer_space = true,
+--
+--        -- Set to `true` if your font supports legacy computing symbols (block unicode symbols).
+--        -- Smears will blend better on all backgrounds.
+--        legacy_computing_symbols_support = false,
+--
+--        stiffness = 0.65,
+--
+--        trailing_stiffness = 0.40,
+--
+--    },
+}
