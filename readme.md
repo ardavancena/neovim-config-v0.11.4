@@ -7,6 +7,8 @@ A modular, feature-rich Neovim setup powered by [lazy.nvim](https://github.com/f
 **Author:** Ardavan Najafzadeh  
 **Email:** ardavan.najafzadeh@gmail.com
 
+![Neovim Logo](assets/nvim.png)
+
 ---
 
 ## 🚀 Core Setup
@@ -142,5 +144,9 @@ Lazy.nvim will auto-install all plugins on first launch.
 ---
 
 ![Neovim Config Home](assets/neovim-home.png)
+
+---
+
+![Coding OpenGL Triangle](assets/Coding_OpenGL.png)
 
 ---
