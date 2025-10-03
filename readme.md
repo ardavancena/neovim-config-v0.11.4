@@ -15,13 +15,13 @@ A modular, feature-rich Neovim setup powered by [lazy.nvim](https://github.com/f
 
 ### lazy.nvim – Fast plugin management
 
-```bold ***Installing lazy.nvim for Linux:*** ```
+***Installing lazy.nvim for Linux:***
 ```bash
 git clone https://github.com/folke/lazy.nvim ~/.config/nvim/lazy
 ```
-```***Installing lazy.nvim for Windows:*** ```
+***Installing lazy.nvim for Windows:***
 ```cmd
-git clone https://github.com/folke/lazy.nvim C:\Users\<your-username>\AppData\Local\nvim\lazy
+git clone https://github.com/folke/lazy.nvim %USERPROFILE%\AppData\Local\nvim\lazy
 ```
 
 If you have your neovim config in another folder then you have to specify where git will clone lazy.nvim to!!
@@ -33,9 +33,9 @@ If you have your neovim config in another folder then you have to specify where 
 :Mason
 ```
 
-```**You can install your lsps and more using :Mason**```
+**You can install your lsps and more using :Mason**
 
-```**And also like this.**```
+**And also like this.**
 
 ### LSP Servers
 ```vim
@@ -96,9 +96,9 @@ If you have your neovim config in another folder then you have to specify where 
 - `<leader>ca` – Code actions
 - `<leader>p` – telescope(view files and search for them)
 
-```**<leader>th – THEME SWITCHER**```
+**<leader>th – THEME SWITCHER**
 
-```*** leader = space <- (important) ***```
+***leader = space <- (important)***
 
 ---
 
@@ -139,20 +139,31 @@ If you have your neovim config in another folder then you have to specify where 
 ## 📦 Installation (Linux)
 
 ```bash
+# if you have a backup:
 mv ~/.config/nvim ~/.config/nvim.backup
+```
+```bash
 mkdir -p ~/.config/nvim
-git clone https://github.com/ardavancena/neovim-config-v0.11.4 ~/.config/nvim
+git clone https://github.com/ardavancena/neovim-config-v0.11.4.git ~/.config/nvim
 nvim
 ```
 
 ## 📦 Installation (Windows)
+if you have a backup:
 ```bash
-move 
+move %USERPROFILE%\AppData\Local\nvim %USERPROFILE%\AppData\Local\nvim_backup\
 ```
 
---
+```bash
+mkdir %USERPROFILE\AppData\Local\nvim
+git clone https://github.com/ardavancena/neovim-config-v0.11.4.git %USERPROFILE\AppData\Local\nvim
+nvim
+```
+
+---
 
 Lazy.nvim will auto-install all plugins on first launch.
+Install needed lsps with mason and more if you need.
 
 ---
 
