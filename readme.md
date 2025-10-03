@@ -131,7 +131,7 @@ nvim
 
 Lazy.nvim will auto-install all plugins on first launch.
 
-```ansi
+```text
                                                                      
        ████ ██████           █████      ██                     
       ███████████             █████                             
