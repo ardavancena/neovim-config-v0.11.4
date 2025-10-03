@@ -3,11 +3,11 @@
 
 A modular, feature-rich Neovim setup powered by [lazy.nvim](https://github.com/folke/lazy.nvim). Designed for fast startup, deep language support, and a clean UI.
 
+![Neovim Logo](assets/nvim.png)
+
 **Repository:** [https://github.com/ardavancena/neovim-config-v0.11.4](https://github.com/ardavancena/neovim-config-v0.11.4)  
 **Author:** Ardavan Najafzadeh  
 **Email:** ardavan.najafzadeh@gmail.com
-
-![Neovim Logo](assets/nvim.png)
 
 ---
 
