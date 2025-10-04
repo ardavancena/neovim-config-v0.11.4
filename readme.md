@@ -136,37 +136,69 @@ If you have your neovim config in another folder then you have to specify where 
 
 ---
 
-## 📦 Installation 
+## 📦 Installation
 
-**Linux:**
+### 🐧 **Linux**
 
-(Hint) If you already have a config:
+💡 *Hint:* If you already have an existing Neovim config, back it up first:
+
 ```bash
 mv ~/.config/nvim ~/.config/nvim.backup
 ```
+
+Then clone the new configuration:
+
 ```bash
 mkdir -p ~/.config/nvim
 git clone https://github.com/ardavancena/neovim-config-v0.11.4.git ~/.config/nvim
+```
+
+Finally, launch Neovim to let **lazy.nvim** install all plugins:
+
+```bash
 nvim
 ```
 
-**Windows:**
-(Hint) If you already have a config:
-```bash
+---
+
+### 🪟 **Windows**
+
+💡 *Hint:* If you already have an existing Neovim config, back it up first:
+
+```cmd
 move "%USERPROFILE%\AppData\Local\nvim" "%USERPROFILE%\AppData\Local\nvim_backup\"
 ```
-Clone the new config:
-```bash
-git clone https://github.com/ardavancena/neovim-config-v0.11.4.git "%USERPROFILE%\AppData\Local\nvim"
 
+➡️ *(Old config → Backup folder)*
+
+Then clone the new configuration:
+
+```cmd
+git clone https://github.com/ardavancena/neovim-config-v0.11.4.git "%USERPROFILE%\AppData\Local\nvim"
 ```
 
-**Now open neovim and use the config.**
-Hint: install and config plugins if needed!
+Finally, open Neovim to initialize the setup:
 
-```bash
+```cmd
 nvim
 ```
+
+---
+
+### 📝 **Post-Installation**
+
+Once inside Neovim, run:
+
+```vim
+:Lazy sync
+```
+
+This will install and configure all required plugins automatically.  
+After everything is set up, restart Neovim to apply the changes.
+
+---
+
+✨ **That’s it!** You now have a fully featured Neovim configuration ready to go.
 
 ---
 
