@@ -19,7 +19,7 @@ A modular, feature-rich Neovim setup powered by [lazy.nvim](https://github.com/f
 ```bash
 git clone https://github.com/folke/lazy.nvim ~/.config/nvim/lazy
 ```
-***Installing lazy.nvim for Windows:***
+**Installing lazy.nvim for Windows:**
 ```cmd
 git clone https://github.com/folke/lazy.nvim %USERPROFILE%\AppData\Local\nvim\lazy
 ```
