@@ -136,10 +136,12 @@ If you have your neovim config in another folder then you have to specify where 
 
 ---
 
-## 📦 Installation (Linux)
+## 📦 Installation 
 
+**Linux:**
+
+(Hint) If you already have a config:
 ```bash
-# if you have a backup:
 mv ~/.config/nvim ~/.config/nvim.backup
 ```
 ```bash
@@ -148,15 +150,21 @@ git clone https://github.com/ardavancena/neovim-config-v0.11.4.git ~/.config/nvi
 nvim
 ```
 
-## 📦 Installation (Windows)
-if you have a backup:
+**Windows:**
+(Hint) If you already have a config:
 ```bash
-move %USERPROFILE%\AppData\Local\nvim %USERPROFILE%\AppData\Local\nvim_backup\
+move "%USERPROFILE%\AppData\Local\nvim" "%USERPROFILE%\AppData\Local\nvim_backup\"
+```
+Clone the new config:
+```bash
+git clone https://github.com/ardavancena/neovim-config-v0.11.4.git "%USERPROFILE%\AppData\Local\nvim"
+
 ```
 
+**Now open neovim and use the config.**
+Hint: install and config plugins if needed!
+
 ```bash
-mkdir %USERPROFILE\AppData\Local\nvim
-git clone https://github.com/ardavancena/neovim-config-v0.11.4.git %USERPROFILE\AppData\Local\nvim
 nvim
 ```
 
